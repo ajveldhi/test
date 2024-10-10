@@ -1,0 +1,38 @@
+    1  ls -ltr
+    2  cd test/
+    3  ls -ltr
+    4  cd elk/
+    5  ls -ltr
+    6  history 
+    7  ls -tr
+    8  ls -ltr
+    9  history 
+   10  git status 
+   11  git add .
+   12  git commit -m "elk"
+   13  git push 
+   14  ls -ltr
+   15  cat elk.yml 
+   16  cat logstash.conf 
+   17  docker ps -a 
+   18  docker logs f2f35574c236
+   19  cat filebeat.yml 
+   20  ls -ltr /var/log/auth.log
+   21  ls -ltr /var/log/syslog
+   22  ls -ltr /var/log/messages
+   23  cd /var/log/
+   24  ls -ltr
+   25  cat lastlog 
+   26  q
+   27  cat cloud-init.log
+   28  ls -ltr
+   29  pwd
+   30  cd
+   31  cd test/elk/
+   32  vim filebeat.yml 
+   33  history 
+   34  ls -ltr
+   35  docker-compose -f elk.yml up -d 
+   36  docker-compose up --help
+   37  docker-compose -f elk.yml up -d --force-recreate
+   38  history > his_1

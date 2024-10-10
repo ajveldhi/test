@@ -6,6 +6,7 @@ filebeat.inputs:
       - /var/log/syslog
       - /var/log/auth.log
       - /var/log/messages
+      - /var/log/cloud-init.log
     encoding: utf-8
 
 output.logstash:
