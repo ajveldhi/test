@@ -25,7 +25,7 @@ services:
     image: logstash:7.9.1
     container_name: logstash
     ports:
-      - "5044:5044"
+      #      - "5044:5044"
       - "9600:9600"
     volumes:
       - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
@@ -49,6 +49,13 @@ services:
       - elk
     depends_on:
       - elasticsearch
+
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:8.9.0
+    volumes:
+      - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
+    ports:
+      - "5044:5044"
 
 networks:
   elk:
