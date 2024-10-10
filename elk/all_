@@ -1,0 +1,136 @@
+
+[root@ip-172-31-21-5 ~]# more * | cat
+::::::::::::::
+aa
+::::::::::::::
+
+elasticsearch.yml
+
+cluster.name: "elasticsearch"
+network.host: localhost
+kibana.yml
+
+# Default Kibana configuration for docker target
+server.name: kibana
+server.host: "0"
+elasticsearch.hosts: [ "http://elasticsearch:9200" ]
+monitoring.ui.container.elasticsearch.enabled: true
+Logstash.conf
+
+input {
+   beats{
+   port => 5044
+   }
+}
+
+filter {
+}
+
+output {
+   elasticsearch {
+   hosts => "http://elasticsearch:9200"
+   index => "filebeat-test%{+YYYY.MM.DD}"
+   user => "elastic"
+   password => "password"
+ }
+}
+Logstash.yml
+
+http.host: 0.0.0.0
+xpack.monitoring.elasticsearch.hosts: ["http://elasticsearch:9200"]
+
+
+
+::::::::::::::
+elasticsearch.yml
+::::::::::::::
+cluster.name: "elasticsearch"
+network.host: localhost
+
+*** elk-config: directory ***
+
+::::::::::::::
+elk.yml
+::::::::::::::
+
+version: '3'
+services:
+  elasticsearch:
+    image: elasticsearch:7.9.1
+    container_name: elasticsearch
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - test_data:/usr/share/elasticsearch/data/
+      - ./elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+        ###- ./elk-config/elasticsearch/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+    environment:
+      - discovery.type=single-node
+      - http.host=0.0.0.0
+      - transport.host=0.0.0.0
+      - xpack.security.enabled=false
+      - xpack.monitoring.enabled=false
+      - cluster.name=elasticsearch
+      - bootstrap.memory_lock=true
+    networks:
+      - elk
+
+  logstash:
+    image: logstash:7.9.1
+    container_name: logstash
+    ports:
+      - "5044:5044"
+      - "9600:9600"
+    volumes:
+      - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+      - ./logstash.yml:/usr/share/logstash/config/logstash.yml
+      - ls_data:/usr/share/logstash/data
+
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch
+
+  kibana:
+    image: kibana:7.9.1
+    container_name: kibana
+    ports:
+      - "5601:5601"
+    volumes:
+      - ./kibana.yml:/usr/share/kibana/config/kibana.yml
+      - kb_data:/usr/share/kibana/data
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch
+
+networks:
+  elk:
+    driver: bridge
+
+volumes:
+  test_data:
+  ls_data:
+  kb_data:
+
+::::::::::::::
+kibana.yml
+::::::::::::::
+# Default Kibana configuration for docker target
+server.name: kibana
+server.host: "0"
+elasticsearch.hosts: [ "http://elasticsearch:9200" ]
+monitoring.ui.container.elasticsearch.enabled: true
+
+*** logstash.conf: directory ***
+
+
+*** logstash.yml: directory ***
+
+[root@ip-172-31-21-5 ~]#
+[root@ip-172-31-21-5 ~]#
+[root@ip-172-31-21-5 ~]# Connection to 3.145.24.50 closed by remote host.
+Connection to 3.145.24.50 closed.
+
+
