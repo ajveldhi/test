@@ -36,3 +36,20 @@
    36  docker-compose up --help
    37  docker-compose -f elk.yml up -d --force-recreate
    38  history > his_1
+    1  docker
+    2  docker-compose 
+    3  git clone https://github.com/ajveldhi/test.git 
+    4  ls -ltr
+    5  cd test/
+    6  ls -ltr
+    7  cd elk/
+    8  ls -ltr
+    9  docker-compose -f elk.yml pull &
+   10  ls -ltr
+   11  cat all_ 
+   12  ls -ltr
+   13  cat his_1
+   14    docker-compose -f elk.yml up -d --force-recreate
+   15  docker ps -a 
+   16  history 
+   17  history >>  his_1
