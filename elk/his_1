@@ -53,3 +53,140 @@
    15  docker ps -a 
    16  history 
    17  history >>  his_1
+    1  docker
+    2  docker-compose 
+    3  git clone https://github.com/ajveldhi/test.git 
+    4  ls -ltr
+    5  cd test/
+    6  ls -ltr
+    7  cd elk/
+    8  ls -ltr
+    9  docker-compose -f elk.yml pull &
+   10  ls -ltr
+   11  cat all_ 
+   12  ls -ltr
+   13  cat his_1
+   14    docker-compose -f elk.yml up -d --force-recreate
+   15  docker ps -a 
+   16  history 
+   17  history >>  his_1
+   18  docker p s-a 
+   19  docker ps -a 
+   20  docker logs
+   21  docker logs bedb954dad6c 
+   22  docker ps -a 
+   23  docker logs f4
+   24  docker ps -a 
+   25  docker logs  4f
+   26  history 
+   27  curl localhost:9200
+   28  curl localhost:9200/
+   29  curl localhost:9200/asdf
+   30  curl localhost:9200/_cat
+   31  curl localhost:9200/_cat/indices
+   32  curl localhost:9200/_cat/indices?
+   33  curl localhost:9200/_cat/indices?/
+   34  curl localhost:9200/_cat/indices?name
+   35  curl localhost:9200/_cat/indices
+   36  ls -ltr
+   37  cd test/
+   38  cd elk/
+   39  ls -ltr
+   40  git status 
+   41  git add .
+   42  git status 
+   43  ls -tlr
+   44  cat logstash.
+   45  cat logstash.conf 
+   46  cd test/elk/
+   47  ls -tlr
+   48  cd test/elk/
+   49  ls -ltr
+   50  vim logstash.conf 
+   51  history 
+   52    docker-compose -f elk.yml up -d --force-recreate
+   53  ls -ltr
+   54  cat logstash.conf 
+   55  curl localhost:5044
+   56  docker ps -a 
+   57  ls -ltr
+   58  cat filebeat.yml 
+   59  docker ps -a 
+   60  docker exec -it 347a56e5b3b2 bash
+   61  ls -tlr
+   62  cat elk.yml 
+   63  vim elk.yml 
+   64  history 
+   65    docker-compose -f elk.yml up -d --force-recreate
+   66  htop
+   67  curl http://3.145.185.160:9200/_cat/indices
+   68  ls -ltr
+   69  at ekl
+   70  cat elk.yml 
+   71  docker ps -a 
+   72  vim ekl.
+   73  vim elk.yml 
+   74    docker-compose -f elk.yml up -d --force-recreate
+   75  docker ps -a 
+   76  ls -tr
+   77  cat logstash.yml 
+   78  cat logstash.conf 
+   79  cat filebeat.yml 
+   80  vim logstash.conf 
+   81    docker-compose ps
+   82    docker-compose -f elk.yml ps
+   83  docker-compose up -d --force-recreate --service <service_name>
+   84  docker-compose  -f elk.yml up -d --force-recreate --service logstash
+   85  history 
+   86   docker-compose -f elk.yml up -d --force-recreate --service logstash 
+   87   docker-compose up -d -h
+   88   docker-compose -f elk.yml up -d 
+   89   docker-compose -f elk.yml up -d --force-recreate
+   90  docker ps -a 
+   91  cat logstash.conf 
+   92  docker ps -a 
+   93  cat elk.yml 
+   94  cd test/
+   95  l s-ltr
+   96  cd elk/
+   97  ls -ltr
+   98  cat el
+   99  cat elasticsearch.yml 
+  100  cat elk.yml 
+  101  cat logstash.conf 
+  102  netstat -tnpl
+  103  ls -ltr
+  104  mkdir elk1
+  105  cd elk1/
+  106  vim e.yml
+  107  cat ../logstash.conf 
+  108  cp ../logstash.conf .
+  109  vim logstash.conf 
+  110  ls -ltr
+  111  cat e.yml 
+  112  mkdir logstash
+  113  mv logstash.conf logstash
+  114  ls -tr
+  115  ls -ltr
+  116  tree .
+  117  docker-compose -f e.yml pull 
+  118  ls -ltr
+  119  cat logstash/logstash.conf 
+  120  cat e.yml 
+  121  cd ..
+  122  ls -ltr
+  123   docker-compose -f elk.yml down 
+  124  cd -
+  125  ls -ltr
+  126  docker ps -a 
+  127  docker-compose -f e.yml up 
+  128  ls -ltr
+  129  git status 
+  130  git add .
+  131  git commit -m "new elk"
+  132  git push 
+  133  cd ..
+  134  l s-ltr
+  135  ls -ltr
+  136  history 
+  137  history >>  his_1
