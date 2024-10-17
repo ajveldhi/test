@@ -1,11 +1,16 @@
 
 
 
-version: '3.8'
+
+
+
 
 services:
   logstash:
     image: docker.elastic.co/logstash/logstash:7.17.0
+    environment:
+      - LOG_LEVEL=error
+      - xpack.license.management.enabled=false
     ports:
       - "5044:5044"  # Default Logstash Beats input port
     volumes:
@@ -17,7 +22,7 @@ services:
     volumes:
       #- /var/log/syslog:/var/log/syslog  # Mounting the syslog file
       #- /var/log/cloud-init.log:/var/log/cloud-init.log  # Mounting the syslog file
-      - log.log:log.log  # Mounting the syslog file
+      - ./log.log:/var/log/log.log  # Mounting the syslog file
       - ./filebeat.yml:/usr/share/filebeat/filebeat.yml  # Filebeat configuration
     command: ["filebeat", "-e", "-strict.perms=false"]
 

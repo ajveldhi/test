@@ -190,3 +190,98 @@
   135  ls -ltr
   136  history 
   137  history >>  his_1
+    1  git clone https://github.com/ajveldhi/test.git 
+    2  echo "cd test/elk" >> .bash_profile 
+    3  ls -ltr
+    4  cat his_1
+    5  cd elk1/
+    6  ls -ltr
+    7   docker-compose -f e.yml pull
+    8  ls -ltr
+    9  git status 
+   10  echo test > test 
+   11  git status 
+   12  cat his_1 | grep -i git 
+   13  cat ../his_1 | grep -i git 
+   14  git add . && git commit -m "new elk"
+   15  git status 
+   17  ls -lt
+   18  ls -ltr
+   19  rm -f test 
+   20  ls -ltr
+   21  mkdir filebeat_only
+   22  cp elk.yml filebeat_only/
+   23  ls -ltr
+   24  cd filebeat_only/
+   25  ls -ltr
+   26  ls -tlr
+   27  vimef.yml
+   28  vim ef.yml
+   29  ls -ltr
+   30  vim fyml
+   31  ls -ltr
+   32  ls -ltr /var/log/cloud-init.log 
+   33  chmod 777 /var/log/cloud-init.log
+   34  ls -ltr
+   35  docker-compose -f ef.yml pull &
+   36  ls -ltr
+   37  mv fyml filebeat.yml
+   38  ls -ltr
+   39  cat ef.yml 
+   40  vim logstash.conf
+   41  ls -ltr
+   42  vim filebeat.yml 
+   43  ls -ltr
+   44  vim ef.yml 
+   45  ls -ltr
+   46  history 
+   47   docker-compose -f ef.yml  up -d --force-recreate 
+   48  ls -ltr
+   49  docker ps -a 
+   50  docker exec -it 1803d8535277 bash
+   51  ls -ltr
+   52  cat filebeat.yml 
+   53  cat logstash.conf 
+   54  docker ps -a 
+   55  docker logs 1803d8535277 
+   56  docker logs 1803d8535277 -f 
+   57  ls -ltr
+   58  cat logstash.conf 
+   59  docker logs --help
+   60  docker logs 1803d8535277 -f --tail 
+   61  docker logs 1803d8535277 --tail -f
+   62  docker logs 1803d8535277 --tail
+   63  docker logs 1803d8535277 -n 10 
+   64  docker logs 1803d8535277 -n 10 -f 
+   65  chmod 777 /var/log/cloud-init.log
+   66  echo "asdf" >> /var/log/cloud-init.log 
+   67  docker logs 1803d8535277 -n 10 -f 
+   68  ls -ltr
+   69  vim log.log
+   70  ls -ltr
+   71  vim filebeat.yml 
+   72  ls -ltr
+   73  cat logstash.conf 
+   74  cat filebeat.yml 
+   75  cat logstash.conf 
+   76  vim logstash.conf 
+   77  ls -ltr
+   78   docker-compose -f ef.yml  up -d --force-recreate 
+   79  docker ps -a 
+   80  docker logs 42e5b62252af 
+   81  docker logs 42e5b62252af -n 10
+   82  docker ps -a 
+   83  docker logs cbf216e15449  -n 10
+   84  cat filebeat.yml 
+   85  cat elk.yml 
+   86  cat ef.yml 
+   87  vim ef.yml 
+   88  cat filebeat.yml 
+   89  ls -ltr
+   90  cd
+   91  cd test/
+   92  git status 
+   93  git add . && git commit -m "new elk"
+   95  ls -ltr
+   96  cd elk/
+   97  history >>  his_1
