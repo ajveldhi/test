@@ -1,0 +1,15 @@
+
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: nginx-pod 
+  labels: 
+    team: integration
+    app: todo
+spec:
+  containers:
+    - name: nginx-con
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+

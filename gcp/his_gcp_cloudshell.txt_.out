@@ -1,0 +1,549 @@
+    1  ls -ltr
+    2  cd terraform-docs-samples/
+    3  s -ltr
+    4  ls -tlr
+    5  cd gcp
+    6  ls
+    7  cd comp
+    8  cd compute/
+    9  ;s
+   10  ls
+   11  cd quickstart/
+   12  ls
+   13  cd create_vm/
+   14  ls
+   15  cat main.tf 
+   16  gcloud compute instances list
+   17  l s-la
+   18  ls -ltra
+   19  pwd
+   20  df -h .
+   21  terraform init
+   22  ls -ltr
+   23  ls -ltra
+   24  du -sh *
+   25  du -sha *
+   26  du -sh *
+   27  du -sh .terraform
+   28  ls -ltr
+   29  terraform validate
+   30  terraform plan
+   31  terraform apply
+   32  ls -ltr
+   33  cat terraform.tfstate 
+   34  terraform show
+   35  terraform list
+   36  terraform 
+   37  terraform show list
+   38  terraform refresh 
+   39  terraform show 
+   40  terraform show --help
+   41  terraform show -json
+   42  host
+   43  history 
+   44  gcloud compute instances list
+   45  ssh 35.239.171.133
+   46  ls -ltr
+   47  vim main.tf 
+   48  ls -lrt
+   49  ssh-keygen -t rsa -f terraform_gcp_key
+   50  ls -ltr
+   51  readlink -f terraform_gcp_key.pub
+   52  vim main.tf 
+   53  terraform fmt
+   54  terraform apply -auto-aprove 
+   55  terraform apply -auto-approve 
+   56  terraform init 
+   57  terraform plan
+   58  gcloud compute ssh --zone=us-central1-a my-vm
+   59  ls -ltra
+   60  id
+   61  pwd
+   62  cd
+   63  ls -ltra
+   64  cd .ssh/
+   65  ls -ltr
+   66  cat google_compute_engine.pub
+   67  gcloud compute ssh --zone=us-central1-a my-vm
+   68  gcloud compute ssh my-vm --project=wise-chalice-441715-g9 --zone=us-central1-a --troubleshoot
+   69  gcloud compute ssh --zone=us-central1-a my-vm
+   70  cd
+   71  cd 
+   72  docker
+   73  docker ps -a 
+   74  docker pull prometheus
+   75  cd ~/terraform-docs-samples/compute/quickstart/create_vm
+   76  ls -ltr
+   77  history | grep -i auto
+   78  terraform destroy -auto-approve
+   79  vim main.tf 
+   80  terraform destroy -auto-approve
+   81  terraform show 
+   82  ls -ltr
+   83  cd ..
+   84  ls -ltr
+   85  cd ..
+   86  ls -ltr
+   87  cd basic_vm/
+   88  ls -ltr
+   89  cat main.tf 
+   90  ls -ltr
+   91  cd ..
+   92  ls -ltr
+   93  cd os_login_ssh_key/
+   94  ls -ltr
+   95  cat main.tf 
+   96  ls -ltr
+   97  cat id_rsa.pub 
+   98  history | grep -i list
+   99  gcloud compute instances list
+  100  history | grep -i list
+  101  ls-ltr
+  102  ls -ltr
+  103  cat main.tf 
+  104  terraform fmt
+  105  terraform plan
+  106  cd ../quickstart/create_vm/
+  107  ls -ltr
+  108  ls -ltra
+  109  vim main.tf 
+  110  terraform plan
+  111  vim main.tf 
+  112  terraform plan
+  113  vim main.tf 
+  114  terraform plan
+  115  vim main.tf 
+  116  terraform plan
+  117  vim main.tf 
+  118  terraform plan
+  119  history | grep -i app
+  120  cat main.tf 
+  121  vim main.tf 
+  122  terraform plan
+  123  vim main.tf 
+  124  terraform plan
+  125  ls -ltr
+  126  cat main.tf 
+  127  ls -ltr
+  128  history 
+  129  ls -ltr
+  130  cat main.tf 
+  131  terraform plan
+  132  time terraform plan
+  133  history | grep app
+  134  ls -ltr
+  135  history | grep list
+  136  gcloud compute instances list 
+  137  ls -ltr
+  138  history 
+  139  cd ~/terraform-docs-samples/compute/quickstart/create_vm
+  140  ls -ltr
+  141  vim main.tf 
+  142  grep -i resou main.tf 
+  143  vim main.tf 
+  144  terraform fmt
+  145  vim main.tf 
+  146  history | grep app
+  147  terraform apply -auto-approve 
+  148  cd ../..
+  149  ls -ltr
+  150  ls -tlr | grep int
+  151  cd -
+  152  vim main.tf 
+  153  terraform apply -auto-approve 
+  154  vim main.tf 
+  155  history | grep des
+  156  terraform destroy -auto-approve
+  157  vim main.tf 
+  158  terraform destroy -auto-approve
+  159  vim main.tf 
+  160  ssh -i terraform_gcp_key jenkins@34.133.250.212
+  161  terraform destroy -auto-approve
+  162  ls -ltr
+  163  history 
+  164  ls -ltr
+  165  history | grep cd
+  166  ls -ltr
+  167  cat main.tf 
+  168  ls -ltr
+  169  docker ps -a 
+  170  docker run -d nginx 
+  171  docker ps -a 
+  172  docker rm -f c
+  173  docker rm -f c4
+  174  docker ps -a 
+  175  docker run -d -p 8080:80 nginx 
+  176  docker ps -a 
+  177  top
+  178  htop
+  179  docker ps -a 
+  180  sudo su -
+  181  minikube 
+  182  minikube start --driver=docker
+  183  minikube status 
+  184  ls -l /google/minikube/profiles/minikube/config.json:
+  185  ls -l /google/minikube/profiles/minikube/config.json
+  186  ls -l /google/minikube/profiles/minikube/*
+  187  minikube 
+  188  minikube start --vm-driver=none
+  189  minikube start --help | grep -i force 
+  190  minikube start --driver=docker --force=true
+  191  cd /google/minikube/profiles/minikube/
+  192  ls
+  193  ls -ltr
+  194  cd ..
+  195  ls -ltr
+  196  pwd
+  197  id
+  198  sudo su -
+  199  ls -ltr
+  200  cd
+  201  minikube start --driver=docker --force=true
+  202  minikube status 
+  203  htop
+  204  ls -ltr
+  205  cd
+  206  ls -ltr
+  207  kubectl 
+  208  kubectl get pods
+  209  kubectl get pods -A
+  210  kubectl run nginx-pod --image=nginx 
+  211  kubectl get pods -A
+  212  kubectl get pods 
+  213  kubectl get  all
+  214  alias kd='kubectl describe '
+  215  alias kl='kubectl logs    '
+  216  alias kg='kubectl get all    '
+  217  alias ke='kubectl exec -it   '
+  218  alias hw=' helm ls  '
+  219  alias pvc='kubectl get pvc    '
+  220  alias kgp='kubectl get po   '
+  221  alias ku='kubectl '
+  222  kd
+  223  alias 
+  224  kg
+  225  cat /etc/os-release 
+  226  apt-get install bash-completion 
+  227  sudo apt-get install bash-completion 
+  228  kubectl completion bash | sudo tee /etc/bash_completion.d/kubectl > /dev/null
+  229  id
+  230  d
+  231  id
+  232  ku
+  233  kubectl get pod
+  234  alias kd='kubectl describe '
+  235  alias kl='kubectl logs    '
+  236  alias kg='kubectl get all    '
+  237  alias ke='kubectl exec -it   '
+  238  alias hw=' helm ls  '
+  239  alias pvc='kubectl get pvc    '
+  240  alias kgp='kubectl get po   '
+  241  alias ku='kubectl '
+  242  ll
+  243  la -ltra
+  244  ls -la
+  245  echo 'alias ku=kubectl' >>~/.bashrc
+  246  echo 'complete -o default -F __start_kubectl k' >>~/.bashrc
+  247  exit
+  248  echo 'kubectl completion bash | sudo tee /etc/bash_completion.d/kubectl > /dev/null'  >>~/.bashrc
+  249  ls -la
+  250  ls -ltra
+  251  exit
+  252  ku
+  253  kubectl get 
+  254  kl
+  255  alias kd='kubectl describe '
+  256  alias kl='kubectl logs    '
+  257  alias kg='kubectl get all    '
+  258  alias ke='kubectl exec -it   '
+  259  alias hw=' helm ls  '
+  260  alias pvc='kubectl get pvc    '
+  261  alias kgp='kubectl get po   '
+  262  alias ku='kubectl '
+  263  kl
+  264  alias 
+  265  kgp
+  266  kg
+  267  ku
+  268  kubectl appi-re
+  269  kubectl api-resources 
+  270  kubectl api-resources | grep pod
+  271  kubectl api-resources | grep pods
+  272  minikube status 
+  273  history 
+  274  history | grep chmod
+  275  history | grep cd 
+  276  cd
+  277  history | grep foce
+  278  history | grep force
+  279  minikube status 
+  280  alias kd='kubectl describe '
+  281  alias kl='kubectl logs    '
+  282  alias kg='kubectl get all    '
+  283  alias ke='kubectl exec -it   '
+  284  alias hw=' helm ls  '
+  285  alias pvc='kubectl get pvc    '
+  286  alias kgp='kubectl get po   '
+  287  alias ku='kubectl '
+  288  echo 'kubectl completion bash | sudo tee /etc/bash_completion.d/kubectl > /dev/null'  >>~/.bashrc
+  289  echo 'alias ku=kubectl' >>~/.bashrc
+  290  echo 'complete -o default -F __start_kubectl k' >>~/.bashrc
+  291  kubectl get po
+  292  kubectl get po -a
+  293  kubectl get po -A
+  294  alias kd='kubectl describe '
+  295  alias kl='kubectl logs    '
+  296  alias kg='kubectl get all    '
+  297  alias ke='kubectl exec -it   '
+  298  alias hw=' helm ls  '
+  299  alias pvc='kubectl get pvc    '
+  300  alias kgp='kubectl get po   '
+  301  alias ku='kubectl '
+  302  echo 'kubectl completion bash | sudo tee /etc/bash_completion.d/kubectl > /dev/null'  >>~/.bashrc
+  303  echo 'alias ku=kubectl' >>~/.bashrc
+  304  echo 'complete -o default -F __start_kubectl k' >>~/.bashrc
+  305  kg
+  306  ls -ltr
+  307  vim n.yml
+  308  ku apply -f n.yml 
+  309  cat -n n.yml 
+  310  apt-get install dos2unix
+  311  sudo apt-get install dos2unix
+  312  dos2unix n.yml 
+  313  cat n.yml 
+  314  ku apply -f n.yml 
+  315  cat n.yml -n
+  316  vim n.yml 
+  317  ku apply -f n.yml 
+  318  cat n.yml -n
+  319  vim n.yml 
+  320  ku apply -f n.yml 
+  321  cat n.yml 
+  322  kg
+  323  kgp
+  324  kg
+  325  alias 
+  326  kg
+  327  history | grep -i run 
+  328  kubectl run nginx-pod
+  329  kubectl run nginx-pod --image=nginx
+  330  kubectl run nginx-pod1 --image=nginx
+  331  kg
+  332  ku get po 
+  333  kg
+  334  kgp
+  335  kgp -l app:todo
+  336  kgp -l app=todo
+  337  kgp -l app=todo, team=integration 
+  338  kgp -l app=todo,team=integration 
+  339  kd nginx-pod
+  340  kd
+  341  kd nginx-pod
+  342  alias 
+  343  kd pod nginx-pod
+  344  kd
+  345  history 
+  346  alias kd='kubectl describe '  >>~/.bashrc
+  347  alias kl='kubectl logs    '  >>~/.bashrc
+  348  alias kg='kubectl get all    '  >>~/.bashrc
+  349  alias ke='kubectl exec -it   '  >>~/.bashrc
+  350  alias hw=' helm ls  '  >>~/.bashrc
+  351  alias pvc='kubectl get pvc    '  >>~/.bashrc
+  352  alias kgp='kubectl get po   '  >>~/.bashrc
+  353  alias ku='kubectl '  >>~/.bashrc
+  354  echo 'kubectl completion bash | sudo tee /etc/bash_completion.d/kubectl > /dev/null'  >>~/.bashrc
+  355  echo 'alias ku=kubectl' >>~/.bashrc
+  356  echo 'complete -o default -F __start_kubectl k' >>~/.bashrc
+  357  kg
+  358  ku
+  359  kg
+  360  kg -o wide 
+  361  ku exec -it nginx-pod -- bash 
+  362  df -h 
+  363  kd po nginx-pod
+  364  kg -o wide yaml
+  365  kg -o yaml
+  366  kg -o yaml | grep -i host 
+  367  kg -o yaml | grep -i port 
+  368  alias 
+  369  kgp -o yaml | grep -i host 
+  370  kgp nginx-pod -o yaml | grep -i host 
+  371  kgp nginx-pod -o yaml | grep -i port 
+  372  ku port-forward nginx-pod 8083:80 
+  373  kl nginx-pod
+  374  kubectl api-resources | grep repli
+  375  vim r.yml
+  376  kg
+  377  ku delete pod/nginx-pod 
+  378  ku delete pod/nginx-pod1
+  379  kg
+  380  ls -ltr
+  381  ku apply -f r.yml 
+  382  vim r.yml 
+  383  ku apply -f r.yml 
+  384  kg
+  385  ku get rs
+  386  ku get rs -o wide 
+  387  ku delete pod/ng-replicaset-brmw9  
+  388  kg
+  389  ku get no
+  390  minikube node add --worker -p local-cluster 
+  391  minikube stop 
+  392  ku get no
+  393  minikube node add --worker -p local-cluster 
+  394  minikube start -p local-cluster --driver=docker --force=true
+  395  ku gwet no
+  396  ku get no
+  397  minikube node add --worker -p local-cluster 
+  398  ku get no 
+  399  kg
+  400  kg -A
+  401  kg
+  402  kgp
+  403  ls -ltr
+  404  ku apply -f r.yml 
+  405  kg
+  406  kgp
+  407  kg
+  408  ku get no
+  409  htop
+  410  kg
+  411  kd pod/ng-replicaset-2564c
+  412  kg
+  413  kg -o wide 
+  414  kgp -o wide 
+  415  history | grep -i node 
+  416  inikube node add --worker -p local-cluster
+  417  minikube node add --worker -p local-cluster
+  418  ku get no
+  419  kgp -o wide 
+  420  ku get all -A
+  421  htop
+  422  kgp -o wide 
+  423  ku get  rs 
+  424  ku delete rs ng-replicaset
+  425  kgp
+  426  kg
+  427  kgp
+  428  ku get no 
+  429  ku apply -f r.yml 
+  430  kgp -o wide 
+  431  history | grep -i node 
+  432  minikube node delete local-cluster-m02 -p local-cluster
+  433  ku get no
+  434  kgp
+  435  kgp -o wide 
+  436  history 
+  437  ls -ltr
+  438  ku delete all --all 
+  439  kg
+  440  history | grep api 
+  441  kubectl api-resources | grep deployment
+  442  vim d.yml
+  443  cat r.yml 
+  444  vim d.yml
+  445  ku apply -f d.yml 
+  446  vim d.yml
+  447  ku apply -f d.yml 
+  448  kg
+  449  kg -o wide 
+  450  kgp -o wide 
+  451  kd pod ng-deployment-75c79d9b96-h8bcp
+  452  kgp -o wide 
+  453  ku get po 
+  454  ku get po --show-lables 
+  455  ku get po --show-labels 
+  456  vim d.yml 
+  457  ku apply -f d.yml 
+  458  kgp
+  459  kg
+  460  ku scale --replicas=4 deployment.apps/ng-deployment
+  461  kgp
+  462  kg
+  463  ls -tr
+  464  ls -ltr
+  465  vim d.yml 
+  466  ku apply -f d.yml 
+  467  kgp
+  468  kg
+  469  cat d.yml 
+  470  kgp
+  471  kg
+  472  ls -ltr
+  473  cat d.yml 
+  474  ku set image deployment/ng-deployment nginx-con=nginx:1.21
+  475  kgp
+  476  kgp -o wide 
+  477  kd pod ng-deployment-6579b96867-bwttp
+  478  kgp -o wide 
+  479  kd pod ng-deployment-6579b96867-9r8gq
+  480  kgp
+  481  kg
+  482  kubectl rollout history 
+  483  kubectl rollout history deployment.apps/ng-deployment
+  484  ku set image deployment/ng-deployment nginx-con=nginx:1.20 --record 
+  485  kubectl rollout history deployment.apps/ng-deployment
+  486  l s-ltr
+  487  ls -ltr
+  488  vim d.yml 
+  489  ku apply -f d.yml 
+  490  vim d.yml 
+  491  ku apply -f d.yml 
+  492  kubectl rollout history deployment.apps/ng-deployment
+  493  history 
+  494  kgp
+  495  kg
+  496  kubectl rollout history deployment.apps/ng-deployment
+  497  kubectl rollout undo deployment.apps/ng-deployment --to-revision=1
+  498  kgp
+  499  kgp -o wide 
+  500  kd po ng-deployment-75c79d9b96-lrtrl 
+  501  history 
+  502  minikube status 
+  503  minikube start -p local-cluster --driver=docker --force=true
+  504  minikube status 
+  505  minikube start -p local-cluster --driver=docker --force=true
+  506  ku get no
+  507  minikube statsu 
+  508  minikube status 
+  509  kg
+  510  alias kd='kubectl describe '  >>~/.bashrc
+  511  alias kl='kubectl logs    '  >>~/.bashrc
+  512  alias kg='kubectl get all    '  >>~/.bashrc
+  513  alias ke='kubectl exec -it   '  >>~/.bashrc
+  514  alias hw=' helm ls  '  >>~/.bashrc
+  515  alias pvc='kubectl get pvc    '  >>~/.bashrc
+  516  alias kgp='kubectl get po   '  >>~/.bashrc
+  517  alias ku='kubectl '  >>~/.bashrc
+  518  echo 'kubectl completion bash | sudo tee /etc/bash_completion.d/kubectl > /dev/null'  >>~/.bashrc
+  519  echo 'alias ku=kubectl' >>~/.bashrc
+  520  echo 'complete -o default -F __start_kubectl k' >>~/.bashrc
+  521  jkg
+  522  kg
+  523  alias 
+  524  kgp
+  525  kg
+  526  l;s -ltr
+  527  ls -ltr
+  528  git clone https://github.com/ajveldhi/test.git 
+  529  ls -ltr
+  530  cd te
+  531  cd terraform-docs-samples/
+  532  cd 
+  533  cd terst
+  534  cd test
+  535  ls -ltr
+  536  git status 
+  537  midir gcp
+  538  cd g
+  539  ls -ltr
+  540  mkdir gcp
+  541  ls -ltr
+  542  cd gcp/
+  543  ls -ltr
+  544  history 
+  545  history >> his_gcp_cloudshell.txt`date`
+  546  history >> his_gcp_cloudshell.txt_`date`
+  547  history >> his_gcp_cloudshell.txt_`date'%d'`
+  548  history >> his_gcp_cloudshell.txt_`date'+%d'`
+  549  history >> his_gcp_cloudshell.txt_`date'+%d'`.out
