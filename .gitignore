@@ -1,0 +1,6 @@
+
+# ignore terraform native file 
+eks_manual_creation/.terraform
+.terraform
+*/.terraform
+

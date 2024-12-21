@@ -24,7 +24,8 @@ services:
     restart: always
     volumes:
     - ./logstash/:/logstash_dir
-    - /var/log/cloud-init.log:/var/log/cloud-init.log
+      #- /var/log/cloud-init.log:/var/log/cloud-init.log
+    - /var/log:/var/log
     command: logstash -f /logstash_dir/logstash.conf
     depends_on:
       - Elasticsearch
